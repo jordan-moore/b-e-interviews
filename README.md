@@ -59,7 +59,7 @@ Design a system that handles prioratizing maintanance workers jobs from device e
 
 ## Deliverables
 
-Candidates are expected to present the various artifacts defining their system on a call to a board of team members over the course of 30-40 minutes. Architecture diagrams, sample database tables, data flow diagrams are encouraged. Questions may be asked during that time for clarification. This will be followed by 30-40 minutes of follow up questions that may delve deeper into parts of your system, ask you about how you would handle furhter requirements or new challenges, question your selction of certain architectural component choices vs alternatives.
+Candidates are expected to present the various artifacts defining their system on a call to a board of team members over the course of 30-40 minutes. Architecture diagrams, sample database tables, data flow diagrams are encouraged. Please be specific with your architecture components, specify what type of databases you'd choose, etc. Questions may be asked during that time for clarification. This will be followed by 30-40 minutes of follow up questions that may delve deeper into parts of your system, ask you about how you would handle further requirements or new challenges, question your selction of certain architectural component choices vs alternatives.
 
 This is primarily a system design interview, no real code is required, but code snipits or pseudo code is welcome for sections you'd like to flesh out or explore durring the interview.
 
