@@ -2,11 +2,11 @@
 
 ## Problem Definition
 
-A busy manufacturing plant has a list of assets from the plant waiting for inspection. The waitlist is created sequentially (e.g. assets are added in a fifo order) from the time the asset was reported via a call/digital entry of a customer reportee.  Once there is an availability, opperations calls each reportee to offer an inspection appointment for the asset in the order they were added to the waitlist. The staff member from opperations has noticed that she wastes a lot of time trying to find a reportee from the waitlist since they&#39;re often not available due to their schedule, asset isnt that important, don&#39;t pick up the phone, etc.  She would like to generate a better list that will increase her chances of finding a reportee in the first few calls.
+A busy manufacturing plant has a list of assets from the plant waiting for inspection. The waitlist is created sequentially (e.g. assets are added in a fifo order) from the time the asset was reported via a call/digital entry of a customer reportee.  Once there is an availability, operations calls each reportee to offer an inspection appointment for the asset in the order they were added to the waitlist. The staff member from operations has noticed that she wastes a lot of time trying to find a reportee from the waitlist since they&#39;re often not available due to their schedule, asset isn't that important, don&#39;t pick up the phone, etc.  She would like to generate a better list that will increase her chances of finding a reportee in the first few calls.
 
 ## Interview Task
 
-Given reportee demographics and behavioral data (see sample-data/reportee.json), create an algorithm that will process a set of historical reportee data and compute a score for each reportee that (1 as the lowest, 10 as the highest) that represents the chance of a reportee accepting the offer off the waitlist. Take into consideration that reportees who have little behavior data should be randomly added to the top list as to give them a chance to be selected. Expose an api that takes a manufacturing plant's location as input and returns an ordered list of 10 reportees who will most likely accept the inspection appointment offer.
+Given reportee demographics and behavioral data (see sample-data/reportee.json), create an algorithm that will process a set of historical reportee data and compute a score for each reportee that (1 as the lowest, 10 as the highest) that represents the chance of a reportee accepting the offer off the waitlist. Take into consideration that reportees who have little behavior data should be randomly added to the top list as to give them a chance to be selected. Expose an API that takes a manufacturing plant's location as input and returns an ordered list of 10 reportees who will most likely accept the inspection appointment offer.
 
 ## Weighting Categories
 
@@ -41,11 +41,11 @@ The code should be written in Golang as a package that anyone can import and use
 
 ## Problem Definition
 
-A manufacturing plant is looking to proactively maintain/fix IoT assets in the field that are streaming data via MQTT to an IoT Platform. They are hoping a new system/solution will leverage that platform to create alert events pertaining to the assets and ultimately empower maintanance workers with what assets they should inspect next and the relevant knowledge they will need to carry out their inspections.
+A manufacturing plant is looking to proactively maintain/fix IoT assets in the field that are streaming data via MQTT to an IoT Platform. They are hoping a new system/solution will leverage that platform to create alert events pertaining to the assets and ultimately empower maintenance workers with what assets they should inspect next and the relevant knowledge they will need to carry out their inspections.
 
 ## Interview Task
 
-Design a system that handles prioratizing maintanance workers jobs from device events steamed to the cloud keep in mind the following. 
+Design a system that handles prioritizing maintenance workers jobs from device events steamed to the cloud keep in mind the following. 
 
 - Devices can have multiple data points/censors represented in their payloads.
 
@@ -55,11 +55,11 @@ Design a system that handles prioratizing maintanance workers jobs from device e
 
 - Devices going offline entirely should be considered
 
-- Maintanance appointments are to be sent out as emails to maintanance users.
+- Maintenance appointments are to be sent out as emails to maintenance users.
 
 ## Deliverables
 
-Candidates are expected to present the various artifacts defining their system on a call to a board of team members over the course of 30-40 minutes. Architecture diagrams, sample database tables, data flow diagrams are encouraged. Please be specific with your architecture components, specify what type of databases you'd choose, etc. Questions may be asked during that time for clarification. This will be followed by 30-40 minutes of follow up questions that may delve deeper into parts of your system, ask you about how you would handle further requirements or new challenges, question your selction of certain architectural component choices vs alternatives.
+Candidates are expected to present the various artifacts defining their system on a call to a board of team members over the course of 30-40 minutes. Architecture diagrams, sample database tables, data flow diagrams are encouraged. Please be specific with your architecture components, specify what type of databases you'd choose, etc. Questions may be asked during that time for clarification. This will be followed by 30-40 minutes of follow up questions that may delve deeper into parts of your system, ask you about how you would handle further requirements or new challenges, question your selection of certain architectural component choices vs alternatives.
 
-This is primarily a system design interview, no real code is required, but code snipits or pseudo code is welcome for sections you'd like to flesh out or explore durring the interview.
+This is primarily a system design interview, no real code is required, but code snippets or pseudo code is welcome for sections you'd like to flesh out or explore during the interview.
 
